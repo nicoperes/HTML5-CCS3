@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam sozinhas</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam sozinhas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/ftp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/ftm.png" type="image/png">
+        <img src="imagens/ftg.png" alt="Imagem flexível">
+    </picture>
+
+    <h2>Áudios</h2>
+    <p>Abaixo uma música para você curtir enquanto navega nesta página! :3</p>
+
+    <!-- Opção 1:
+    <audio src="midia/Glitchin’ a Ride - The Whole Other.mp3" controls autoplay></audio> 
+    -->
+    <!-- Opção 2: -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Glitchin’ a Ride - The Whole Other.mp3" type="audio/mpeg">
+        <source src="midia/Glitchin’ a Ride - The Whole Other.ogg" type="audio/ogg">
+        <source src="midia/Glitchin’ a Ride - The Whole Other.wav" type="audio/wav">
+        <p>Arquivo de áudio incompatível! <a href="midia/Glitchin’ a Ride - The Whole Other.mp3" target="_blank" download="Glitchin’ a Ride - The Whole Other.mp3" type="audio/mpeg" rel="external">Clique aqui para baixar manualmente</a></p>
+    </audio>
+</body>
+</html>

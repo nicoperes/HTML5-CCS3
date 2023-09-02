@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font: 1.4rem Arial, Verdana, sans-serif;
+    background-color: #FFE5DE;
+    color: black;
+}
+
+h1{
+    color: #CC706A;
+}
+
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color: #225E99;
+}
+
+h2 {
+    color: #225E99;
+}
+
+.destaque{
+    background-color: #d6c9ba;
+}
+
+.lv1{
+    color: #6acc6a;
+}
+
+.lv2{
+    color: #796acc;
+}
