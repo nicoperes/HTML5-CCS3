@@ -74,7 +74,7 @@ main p{
 }
 
 #img1{
-    background: darkgreen url(imagens/background001.jpg) center center no-repeat fixed;
+    background: darkgreen url(imagens/background001.jpg) 60% center no-repeat fixed;
 }
 
 #img2{
