@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 /* FONTS */
-
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
@@ -14,9 +13,10 @@
 }
 html{
     font-size: 62.5%;
+    min-height: 100vh;
 }
 body{
-    font: normal 1.6rem Arial, Helvetica, sans-serif;
+    font: normal 1.4rem Arial, Helvetica, sans-serif;
 }
 a{
     font-weight: bold;
@@ -33,11 +33,11 @@ header{
     background-color: rgb(10, 10, 10);
     color: white;
     text-align: center;
-    margin: auto;
     padding: 12vw;
 }
 #titulo{
-    font: bold 8vw Acme, sans-serif;
+    font: bold 10vw Staatliches, sans-serif;
+    font-variant: small-caps;
     margin: 1rem;
 }
 header a{
@@ -51,28 +51,26 @@ main{
     background-color: white;
     color: rgb(10, 10, 10);
     font: normal 4.4vw Lobster, sans-serif;
-    padding: 12vw 0rem;
+    padding: 12vw 0em;
 }
-main p{
+.normal{
     margin: 2em 2em;
     line-height: 2.5em;
 }
-
 .imagem{
-    margin: 6em 0rem;
+    margin: 6em 0em;
     padding: 3em 0%;
     box-shadow: inset 0rem 0rem 3rem rgba(0, 0, 0, 0.5);
 }
-
 .imagem p{
     background-color: rgba(0, 0, 0, 0.250);
     color: white;
     text-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    line-height: 2.5em;
     width: fit-content;
     padding: 0.5em;
     margin-left: 1.5em;
 }
-
 #img1{
     background: darkgreen url(imagens/background001.jpg) 60% center no-repeat fixed;
 }
