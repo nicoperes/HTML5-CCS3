@@ -16,7 +16,7 @@ html{
     min-height: 100vh;
 }
 body{
-    font: normal 1.4rem Arial, Helvetica, sans-serif;
+    font: normal 1.4em Arial, Helvetica, sans-serif;
 }
 a{
     font-weight: bold;
@@ -33,12 +33,11 @@ header{
     background-color: rgb(10, 10, 10);
     color: white;
     text-align: center;
-    padding: 12vw;
+    padding: 6vw;
 }
 #titulo{
-    font: bold 10vw Staatliches, sans-serif;
+    font: bold 12vw Staatliches, sans-serif;
     font-variant: small-caps;
-    margin: 1rem;
 }
 header a{
     color: white;
@@ -50,8 +49,8 @@ header a{
 main{
     background-color: white;
     color: rgb(10, 10, 10);
-    font: normal 4.4vw Lobster, sans-serif;
-    padding: 12vw 0em;
+    font: normal 4vw Lobster, sans-serif;
+    padding: 8vw 0em;
 }
 .normal{
     margin: 2em 2em;
