@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela V</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            font: normal 1.6em Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 50rem;
+            border-collapse: collapse;
+        }
+        table > caption{
+            font-weight: bold;
+            font-size: 2rem;
+            padding: 1rem;
+        }
+        tr > th, td{
+            border: 0.1rem solid black;
+            padding: 1rem;
+            text-align: center;
+        }
+        .c_nome{
+            background-color: bisque;
+        }
+        .c_pessoal{
+            background-color: pink;
+        }
+        .c_profissao{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="c_nome">
+            <col class="c_pessoal" span="2">
+            <col class="c_profissao">
+        </colgroup>
+        <tr>
+            <th scope="colgroup">Nome</th>
+            <th scope="colgroup">Sexo</th>
+            <th scope="colgroup">Idade</th>
+            <th scope="colgroup">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Dentista</td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>48</td>
+            <td>Feirante</td>
+        </tr>
+        <tr>
+            <td>Raimundo</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Engenheiro Sanitário</td>
+        </tr>
+        <tr>
+            <td>Rayane</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Hortência</td>
+            <td>F</td>
+            <td>69</td>
+            <td>Aposentada</td>
+        </tr>
+        <tr>
+            <td>Ricardo</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Borracheiro</td>
+        </tr>
+    </table>
+</body>
+</html>
