@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário II</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            font: normal 1.6em Arial, Helvetica, sans-serif;
+        }
+        div{
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário II</h1>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+            <div>
+                <label for="campo_email">EMAIL: </label>
+                <input type="text" name="campo_email" id="campo_email" size="20" required minlength="8" maxlength="30" autocomplete="email" placeholder="Insira seu email">
+            </div>
+            <div>
+                <label for="campo_senha">SENHA: </label>
+                <input type="password" name="campo_senha" id="campo_senha" size="10" required minlength="8" maxlength="24" autocomplete="current-password" placeholder="Digite sua senha">
+            </div>
+            <div><input type="submit" value="ENVIAR"></div>
+    </form>
+</body>
+</html>
