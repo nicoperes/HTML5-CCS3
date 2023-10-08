@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário III</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            font: normal 1.6em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário III</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="campo_nome">Nome: </label>
+            <input type="text" name="campo_nome" id="campo_nome" autocomplete="name" required maxlength="30" placeholder="Nome completo">
+        </p>
+        <p>
+            <label for="campo_media">Média das Notas: </label>
+            <input type="number" name="campo_media" id="campo_media" min="0" max="10" placeholder="0-10" step="0.1">
+        </p>
+        <p>
+            <label for="campo_mes">Período Mestral: </label>
+            <input type="month" name="campo_mes" id="campo_mes">
+        </p>
+        <p>
+            <label for="campo_dia">Dia da Prova: </label>
+            <input type="date" name="campo_dia" id="campo_dia">
+        </p>
+        <p>
+            <label for="campo_hora">Hora da Prova: </label>
+            <input type="time" name="campo_hora" id="campo_hora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
