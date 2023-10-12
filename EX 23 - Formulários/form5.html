@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário V</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            font: normal 1.6em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário V</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <ul type="none">
+                <li>
+                    <input type="radio" name="sexo" id="sexo_m" value="M"><label for="sexo_m">Masculino</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" id="sexo_f" value="F"><label for="sexo_f">Feminino</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" id="sexo_outro" value="outro"><label for="sexo_outro">Outro</label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <ul type="none">
+                <li>
+                    <input type="checkbox" name="check_futebol" id="check_futebol"><label for="check_futebol">Futebol</label></li>
+                <li>
+                    <input type="checkbox" name="check_skate" id="check_skate"><label for="check_skate">Skate</label></li>
+                <li>
+                    <input type="checkbox" name="check_basquete" id="check_basquete"><label for="check_basquete">Basquete</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="check_surf" id="check_surf"><label for="check_surf">Surf</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="check_volei" id="check_volei"><label for="check_volei">Volei</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="check_f1" id="check_f1"><label for="check_f1">Fórmula 1</label>
+                </li>
+            </ul>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
