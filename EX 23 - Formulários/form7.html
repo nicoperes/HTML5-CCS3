@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário VII</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            font: normal 1.6em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário VII</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="select_estado">Estado: </label>
+            <select name="select_estado" id="select_estado" required>
+                <option value="" selected>-- Escolha --</option>
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="input_profissao">Profissão:</label>
+            <input type="text" name="input_profissao" id="input_profissao" list="lista_profissao" required>
+                <datalist id="lista_profissao">
+                    <option>Autônomo</option>
+                    <option>Eletricista</option>
+                    <option>Técnico de Informática</option>
+                    <option>Vendedor</option>
+                    <option>Professor</option>
+                    <option>Outro</option>
+                </datalist>
+        </p>
+        <p>
+            <label for="area_msg">Envie uma mensagem para nossa equipe:</label><br>
+            <textarea name="area_msg" id="area_msg" cols="40" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
