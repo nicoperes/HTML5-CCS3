@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário IX</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            font: normal 1.6em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário IX</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="range_numero">Número: </label>
+            <input type="range" name="range_numero" id="range_numero" min="1" max="5" value="3" oninput="output_range_numero.innerHTML = Number(range_numero.value)">
+            <output id="output_range_numero">3</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
