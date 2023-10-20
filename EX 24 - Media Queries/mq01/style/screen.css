@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* Configurações para Telas */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --cor1: rgb(80, 80, 250);
+    --cor2: rgb(40, 40, 125);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font: normal 1.6em Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 4rem 0rem 0rem;
+    background-color: var(--cor2);
+    color: white;
+}
+
+header > h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+header > menu{
+    padding: 1rem;
+    text-align: center;
+}
+
+header > menu > ul > li{
+    display: inline-block;
+    padding: 1rem;
+    margin: 0rem 0.5rem;
+}
+
+menu a{
+    text-decoration: none;
+    color: white;
+}
+
+menu a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+p{
+    text-indent: 3rem;
+    text-align: justify;
+    margin: 2rem 1.5rem;
+}
+
+main h2{
+    margin: 0rem 1.5rem;
+    padding: 2rem 0rem 0rem;
+}
+article{
+    max-width: 700px;
+    margin: auto;
+}
