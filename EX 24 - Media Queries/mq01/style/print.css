@@ -33,5 +33,5 @@ p{
 article::after{
     font-weight: bolder;
     font-size: 0.8em;
-    content: 'Esta página foi imprimida diretamente do site www.algumacoisa.com.br';
+    content: 'Versão de impressão da página';
 }
