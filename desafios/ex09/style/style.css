@@ -74,7 +74,7 @@ p{
     text-align: center;
 }
 
-.login_botoes{
+.login_input{
     display: inline-block;
     width: 32%;
     min-width: 180px;
@@ -87,17 +87,17 @@ p{
     cursor: pointer;
 }
 
-#login_botoes_dados{
+.login_input_campo{
     border-color: lightgrey;
     font-weight: normal;
     cursor: text;
 }
 
-#login_botoes_dados:hover{
+#login_input_dados:hover{
     border-color: grey;
 }
 
-#login_botoes_enviar{
+#login_input_enviar{
     background-color: var(--color3);
     color: white;
 }
@@ -113,7 +113,7 @@ p{
     text-decoration: underline;
 }
 
-#login_botoes_criar{
+#login_input_criar{
     width: 20%;
     min-width: 110px;
     background-color: var(--color4);
