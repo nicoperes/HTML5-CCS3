@@ -17,11 +17,11 @@
         height: 100%;
     }
 
-    .login_botoes{
+    .login_input{
         width: 42%;
     }
 
-    #login_botoes_nova{
+    #login_input_criar{
         width: 24%;
         max-width: 180px;
     }
