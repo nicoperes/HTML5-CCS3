@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesse a sua conta!</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaquery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <section id="login_box">
+            <div id="login_img">
+            </div>
+            <div id="login_form">
+                <h1>Seja bem-vindo(a)!</h1>
+                <p>Faça o seu login para continuar...</p>
+                    <form action="" method="post" autocomplete="on">
+                    <p>
+                        <label for="campo_email"><i class="material-symbols-outlined">person</i></label>
+                        <input class="login_botoes" id="login_botoes_dados" required type="email" name="campo_email" id="campo_email" autocomplete="email" minlength="12" placeholder="Email">
+                    </p>
+                    <p>
+                        <label for="campo_senha"><i class="material-symbols-outlined">lock</i></label>
+                        <input class="login_botoes" id="login_botoes_dados" required type="password" name="campo_senha" id="campo_senha" min="8" max="22" autocomplete="current-password" placeholder="Senha">
+                    </p>
+                    <p>
+                        <input class="login_botoes" id="login_botoes_enviar" type="submit" value="Enviar">
+                    </p>
+                    <p>
+                        <a id="login_esqueceu" href="#">Esqueceu sua senha?</a>
+                    </p>
+                    <p>
+                        <a class="login_botoes" id="login_botoes_criar" href="#">Criar nova conta</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

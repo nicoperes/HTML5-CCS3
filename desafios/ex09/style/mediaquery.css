@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    body{
+        background-image: linear-gradient(to bottom, var(--color3), var(--color5));
+        font-size: 1.8em;
+    }
+
+    #login_box{
+        width: 72%;
+        height: 76%;
+    }
+
+    #login_img{
+        float: left;
+        width: 38%;
+        height: 100%;
+    }
+
+    .login_botoes{
+        width: 42%;
+    }
+
+    #login_botoes_nova{
+        width: 24%;
+        max-width: 180px;
+    }
+}
+@media screen and (min-width: 1201px){
+    body{
+        background-image: linear-gradient(to bottom, var(--color3), var(--color5));
+        font-size: 2em;
+    }
+
+    #login_box{
+        width: 84%;
+        max-width: 1100px;
+        height: 70%;
+    }
+
+    #login_img{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
