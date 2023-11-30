@@ -8,7 +8,7 @@
 
     #login_box{
         width: 72%;
-        height: 76%;
+        height: 38.4rem;
     }
 
     #login_img{
@@ -23,7 +23,7 @@
 
     #login_input_criar{
         width: 24%;
-        max-width: 180px;
+        max-width: 18rem;
     }
 }
 @media screen and (min-width: 1201px){
@@ -34,8 +34,8 @@
 
     #login_box{
         width: 84%;
-        max-width: 1100px;
-        height: 70%;
+        max-width: 108rem;
+        height: 40.8rem;
     }
 
     #login_img{
