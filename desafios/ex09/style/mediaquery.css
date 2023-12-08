@@ -4,49 +4,46 @@
     body{
         background-image: linear-gradient(to bottom, var(--color3), var(--color5));
         background-attachment: fixed;
-        font-size: 1.7em;
-    }
-
-    h1{
-        margin-top: 3.8rem;
+        font-size: 20px;
     }
 
     #login_box{
-        width: 72%;
-        height: 42.8rem;
+        width: 68%;
     }
 
     #login_img{
-        float: left;
-        width: 38%;
+        width: 34%;
+        height: 100%;
+    }
+
+    #login_form{
+        width: 66%;
         height: 100%;
     }
 
     .login_input{
-        width: 42%;
+        margin-bottom: 3%;
     }
 
-    #login_input_criar{
-        width: 34%;
-        max-width: 13rem;
-    }
 }
 @media screen and (min-width: 1201px){
     body{
         background-image: linear-gradient(to bottom, var(--color3), var(--color5));
         background-attachment: fixed;
-        font-size: 1.9em;
+        font-size: 21px;
     }
 
     #login_box{
-        width: 80%;
-        max-width: 108rem;
-        height: 39.6rem;
+        width: 1014px;
     }
 
     #login_img{
-        float: right;
-        width: 50%;
+        width: 40%;
+        height: 100%;
+    }
+
+    #login_form{
+        width: 60%;
         height: 100%;
     }
 }
